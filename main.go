@@ -1,5 +1,4 @@
 package main
-// Test
 import (
 	"bytes"
 	"flag"
@@ -13,6 +12,7 @@ import (
 	"gopkg.in/inconshreveable/log15.v2/stack"
 )
 
+//TEST
 func customFormat() log.Format {
 	return log.FormatFunc(func(r *log.Record) []byte {
 		var color = 0
